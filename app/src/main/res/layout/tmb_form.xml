@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/desc_default"
+        android:text="@string/tmb_desc" />
+
+    <EditText
+        android:id="@+id/tmb_height"
+        style="@style/form_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/imc_height" />
+
+    <EditText
+        android:id="@+id/tmb_weight"
+        style="@style/form_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/imc_weight"
+        android:maxLength="3"/>
+
+    <EditText
+        android:id="@+id/tmb_age"
+        style="@style/form_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tmb_age"
+        android:maxLength="3"/>
+
+    <Button
+        android:id="@+id/imc_button"
+        android:layout_marginTop="32dp"
+        style="@style/button_default" />
+
+</LinearLayout>

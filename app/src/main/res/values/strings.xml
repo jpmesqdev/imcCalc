@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ImcCalc</string>
+    <string name="main_header">Calculadora Fitness</string>
+    <string name="imc">IMC</string>
+    <string name="imc_desc">O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).</string>
+    <string name="imc_height">Altura (cm)</string>
+    <string name="imc_weight">Peso (kg)</string>
+    <string name="imc_button">calcular</string>
+    <string name="tmb_desc">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter as funções do organismo em repouso, como os batimentos cardíacos, a pressão arterial, a respiração e a manutenção da temperatura corporal.</string>
+    <string name="tmb_age">Idade</string>
+    <string name="title_activity_imc">ImcActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="imc_form_error">Altura/Peso não pode ser vazio e/ou iniciar com 0</string>
+    <string name="imc_level1">Magreza</string>
+    <string name="imc_level2">normal</string>
+    <string name="imc_level3">sobrepeso</string>
+    <string name="imc_level4">obesidade</string>
+    <string name="imc_level5">obesidade severa</string>
+</resources>

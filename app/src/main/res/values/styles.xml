@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="desc_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">16dp</item>
+        <item name="android:titleMarginBottom" tools:targetApi="n">32dp</item>
+    </style>
+
+    <style name="form_default">
+        <item name="android:maxLength">3</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="marginHorizontal">16dp</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="button_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/imc_button</item>
+    </style>
+
+
+</resources>

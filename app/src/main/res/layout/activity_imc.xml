@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/imc_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/imc_desc" />
+
+    <EditText
+        android:id="@+id/imc_height"
+        style="@style/form_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/imc_height" />
+
+    <EditText
+        android:id="@+id/imc_weight"
+        style="@style/form_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/imc_weight"
+        android:maxLength="3"/>
+
+    <Button
+        android:id="@+id/imc_button"
+        android:layout_marginTop="32dp"
+        style="@style/button_default" />
+
+</LinearLayout>
